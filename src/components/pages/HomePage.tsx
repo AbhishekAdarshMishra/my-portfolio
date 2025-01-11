@@ -14,28 +14,29 @@ const HomePage = () => {
                 <div className="mb-10">
                   <Photo/>
                 </div>
-                <span className="text-2xl xl:text-xl">Software Developer (FullStack)</span>
-                <h1 className="text-3xl xl:text-5xl font-bold my-5">
-                  Hello I'm <br/> <span className="text-accent">Abhishek Adarsh Mishra</span>
-                </h1>
-                <p className="max-w-[500px] mb-9 text-white/80">
-                  I specialize in <span className="text-green-600">Developing</span>, <span className="text-green-600">Designing</span> architecture, <span className="text-green-600">Optimizing</span> and <span className="text-green-600">Maintaining</span> complex software solutions, with expertise in a diverse range of programming languages and technologies.
-                </p>
-                <div className="flex flex-col xl:flex-row items-center gap-8">
-                    <CvButton onClick={()=>window.open(ResumeLink, "_blank")}> 
-                      <span className="flex gap-4">
-                        <span>Download CV</span>
-                        <FontAwesomeIcon className="fa-lg" icon={faDownload}></FontAwesomeIcon>
+                <div className="pl-10">
+                  <span className="text-2xl xl:text-xl">Software Developer (FullStack)</span>
+                  <h1 className="text-3xl xl:text-5xl font-bold my-5">
+                    Hello I'm <br/> <span className="text-accent">Abhishek Adarsh Mishra</span>
+                  </h1>
+                  <p className="max-w-[500px] mb-9 text-white/80">
+                    I specialize in <span className="text-green-600">Developing</span>, <span className="text-green-600">Designing</span> architecture, <span className="text-green-600">Optimizing</span> and <span className="text-green-600">Maintaining</span> complex software solutions, with expertise in a diverse range of programming languages and technologies.
+                  </p>
+                  <div className="flex flex-col xl:flex-row items-center gap-8">
+                      <CvButton onClick={()=>window.open(ResumeLink, "_blank")}> 
+                        <span className="flex gap-4">
+                          <span>Download CV</span>
+                          <FontAwesomeIcon className="fa-lg" icon={faDownload}></FontAwesomeIcon>
 
-                      </span>
-                    </CvButton>
+                        </span>
+                      </CvButton>
 
-                    <div>
-                      <Social containerStyles='flex justify-center xl:justify-start gap-6' iconStyles="w-9 h-9 pt-1 hover:border-2 hover:border-white hover:bg-white text-white hover:text-black rounded-full flex justify-center item-center text-accent hover:transition-all duration-500"></Social>
-                    </div>
+                      <div>
+                        <Social containerStyles='flex justify-center xl:justify-start gap-6' iconStyles="w-9 h-9 pt-1 hover:border-2 hover:border-white hover:bg-white text-white hover:text-black rounded-full flex justify-center item-center text-accent hover:transition-all duration-500"></Social>
+                      </div>
+                  </div>
                 </div>
               </div>
-              
               <div className="hidden xl:block m-auto">
                 <img src={home} className="w-96 h-96"/>
               </div>
