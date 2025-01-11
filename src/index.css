@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('./assets/font/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer base {
+  html,
+  body {
+    @apply overflow-x-hidden min-h-screen bg-gray-100;
+    /* Adjust bg as needed */
+  }
+}
