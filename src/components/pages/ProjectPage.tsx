@@ -17,7 +17,7 @@ const ProjectPage = () => {
           <div className="bg-gray-700 w-full px-5 py-10 rounded-lg">
             <div>
               <div className="text-2xl text-center text-accent mb-2"> {project.title} </div>
-              <div className='flex justify-center gap-5'>
+              <div className='flex justify-center flex-wrap gap-5'>
                 {project.tech.map((tech) => (
                   <div className="text-white text-sm text-center bg-gray-500 px-2 py-1 rounded-xl">{tech}</div>
                 ))}
@@ -35,12 +35,12 @@ const ProjectPage = () => {
               <div className='mt-5 flex justify-center gap-5'>
                 <div>
                   {project.demo && (
-                    <Button>Demo</Button>
+                    <Button onClick={()=> window.open(project.demo, "_blank")}>Demo</Button>
                   )}
                 </div>
                 <div>
                   {project.code && (
-                    <Button>Code</Button>
+                    <Button onClick={()=> window.open(project.code, "_blank")}>Code</Button>
                   )}
                 </div>
 
