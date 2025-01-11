@@ -66,7 +66,7 @@ const MobileNav = () => {
         <div className="flex flex-col justify-center items-center gap-8">
             {RouteLinks.map((link, index) => {
                 return (
-                <Link key={index} to={link.path}
+                <Link key={index} to={link.path} onClick={toggleNav}
                     className={`${ link.path === pathname && "text-accent border-b-2 border-accent"} capitalize text-xl hover:text-accent transition-all`}>
                     {link.name}
                 </Link>
