@@ -11,12 +11,12 @@ const ContactPage = () => {
       <div className=" text-lg mt-4 text-gray-400">If you have any questions, feel free to contact me. I am available on almost every social media. You can message me, I will reply within 24 hours.</div>
         
         <div className="mt-5 flex justify-center">
-          <div className="text-lg text-accent">Email:&nbsp;</div>
-          <div className="text-lg text-gray-400"> {Contact.email}</div>
+          <div className="text-md text-accent hidden md:block">Email:&nbsp;</div>
+          <div className="text-md md:text-gray-400 text-accent/50"> {Contact.email}</div>
         </div>
         <div className="flex justify-center">
-          <div className="text-lg text-accent">Address:&nbsp;</div>
-          <div className="text-lg text-gray-400"> {Contact.address}</div>
+          <div className="text-md text-accent hidden md:block">Address:&nbsp;</div>
+          <div className="text-md md:text-gray-400 text-accent/50"> {Contact.address}</div>
         </div>
 
         <Social containerStyles='flex justify-center mt-8 gap-6' iconStyles="w-9 h-9 pt-1 hover:border-2 hover:border-white hover:bg-white text-white hover:text-black rounded-full flex justify-center item-center text-accent hover:transition-all duration-500"></Social>

@@ -3,6 +3,7 @@ import { RouteLinks } from "@routes/routeUtils";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
+import { HireButton } from "./ui/tailwindcss-buttons";
 
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,6 +73,9 @@ const MobileNav = () => {
                 </Link>
                 )
             })}
+            <Link to="/contact" onClick={toggleNav}>
+                <HireButton>Hire me</HireButton>
+            </Link>
         </div>
       </div>
     </div>
