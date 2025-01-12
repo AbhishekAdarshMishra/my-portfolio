@@ -19,7 +19,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 
 ## 🚀 Live Demo
 
-You can check out the live demo of my portfolio [https://abhishekresume-a6620.web.app/#/](#).
+You can check out the live demo of my portfolio [https://abhishekresume-a6620.web.app/].
 
 ## 📂 Folder Structure
 
@@ -88,7 +88,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## ✨ Contact
 
 Feel free to reach out to me for collaboration or feedback:  
-- **Portfolio**: [Portfolio Link](https://github.com/AbhishekAdarshMishra/my-portfolio)  
+- **Portfolio**: [Portfolio Link](https://abhishekresume-a6620.web.app/)  
 - **Email**: [Email Address](mailto:abhishekmshr063@gmail.com)  
 - **GitHub**: [GitHub Profile](https://github.com/AbhishekAdarshMishra)  
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/abhishek-adarsh-mishra-445125165/)  
