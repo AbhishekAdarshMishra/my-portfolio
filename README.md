@@ -1,50 +1,94 @@
-# React + TypeScript + Vite
- 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My Portfolio Website
 
-Currently, two official plugins are available:
+Welcome to my portfolio website! This project showcases my skills, projects, and experience as a [your role, e.g., Software Engineer, Full Stack Developer, etc.]. Built using modern web technologies, this website is fast, responsive, and provides a seamless user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- **Responsive Design**: Optimized for all devices, from desktops to smartphones.  
+- **Showcase Projects**: A dedicated section to highlight my key projects with detailed descriptions and links. 
+- **Showcase Experience**: A dedicated section to highlight my work Expreience with detailed descriptions and links. 
+- **Interactive UI**: Engaging and user-friendly interface.  
+- **Performance**: Built with Vite for blazing-fast development and optimized production builds.  
+- **Styling**: Designed with Tailwind CSS for a sleek and modern look.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Built With
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: A JavaScript library for building user interfaces.  
+- **Vite**: A fast build tool and development server.  
+- **Tailwind CSS**: A utility-first CSS framework.  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Live Demo
+
+You can check out the live demo of my portfolio [https://abhishekresume-a6620.web.app/#/](#).
+
+## 📂 Folder Structure
+
+```
+root
+├── src
+│   ├── components    # Reusable components
+│   │   ├── pages     # Page components
+│   │   ├── ui        # UI components
+│   ├── assets        # Static assets (images, fonts, etc.)
+│   ├── routes        # Ruotes configuration
+│   ├── shared        # Shared files like models etc
+│   ├── utils         # utility files
+│   └── index.ts      # Global and custom Tailwind CSS configurations
+├── public            # Public assets
+├── .gitignore        # Ignored files
+├── package.json      # Project metadata and dependencies
+├── tailwind.config.js # Tailwind CSS configuration
+└── vite.config.js    # Vite configuration
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## ⚙️ Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to run the project locally:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/AbhishekAdarshMishra/my-portfolio
+   ```
+
+2. **Navigate to the project directory**:  
+   ```bash
+   cd my-portfolio
+   ```
+
+3. **Install dependencies**:  
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**:  
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to `http://localhost:5173/`.
+
+## 📝 Scripts
+
+- `npm run dev`: Starts the development server.  
+- `npm run build`: Builds the app for production.  
+- `npm run preview`: Previews the production build.  
+
+## 📸 Screenshots
+
+![alt text](image.png)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/AbhishekAdarshMishra/my-portfolio/issues).  
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).  
+
+## ✨ Contact
+
+Feel free to reach out to me for collaboration or feedback:  
+- **Portfolio**: [Portfolio Link](https://github.com/AbhishekAdarshMishra/my-portfolio)  
+- **Email**: [Email Address](mailto:abhishekmshr063@gmail.com)  
+- **GitHub**: [GitHub Profile](https://github.com/AbhishekAdarshMishra)  
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/abhishek-adarsh-mishra-445125165/)  
